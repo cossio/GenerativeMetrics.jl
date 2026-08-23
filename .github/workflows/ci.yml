@@ -15,7 +15,7 @@ jobs:
         os:
           - ubuntu-latest
         arch:
-          - x64
+          - default
     steps:
       - uses: actions/checkout@v7
       - uses: julia-actions/setup-julia@v3
